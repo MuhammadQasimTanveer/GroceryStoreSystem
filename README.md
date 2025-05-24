@@ -6,48 +6,48 @@
 
 📋 Features
 
-🔐 Admin Authentication
+   🔐 Admin Authentication
 
-   Secure login with default credentials:
-   Username: admin
-   Password: admin
-   Admin can change their credentials during runtime.
+     Secure login with default credentials:
+     Username: admin
+     Password: admin
+     Admin can change their credentials during runtime.
 
-📦 Inventory Management (Linked List)
+   📦 Inventory Management (Linked List)
 
-   Add new products with name, price, and stock.
-   Remove products by name.
-   View all available products in a formatted table.
-   Search for a specific product.
-   Automatically alerts admin when stock falls below threshold (default <5).
+     Add new products with name, price, and stock.
+     Remove products by name.
+     View all available products in a formatted table.
+     Search for a specific product.
+     Automatically alerts admin when stock falls below threshold (default <5).
 
 
-🧺 Customer Shopping (Queue + Cart)
+   🧺 Customer Shopping (Queue + Cart)
 
-   Each customer is queued upon entry.
-   Customers can :
-        Add items to their shopping cart.
-        View cart contents and total cost.
-        Checkout, which updates inventory and logs their total spent.
-   Cart functionality includes product name, quantity, and per-item pricing.
+     Each customer is queued upon entry.
+     Customers can :
+         Add items to their shopping cart.
+         View cart contents and total cost.
+         Checkout, which updates inventory and logs their total spent.
+     Cart functionality includes product name, quantity, and per-item pricing.
 
-⚠️ Low Stock Alerts (Stack)
+   ⚠️ Low Stock Alerts (Stack)
 
-   Products with low stock levels are pushed onto a stack.
-   Admin can view and clear all current low-stock warnings.
+     Products with low stock levels are pushed onto a stack.
+     Admin can view and clear all current low-stock warnings.
 
-📊 Reporting
+   📊 Reporting
 
-   View a Daily Sales Report including:
-   Total customers served.
-   Total sales revenue.
+     View a Daily Sales Report including:
+     Total customers served.
+     Total sales revenue.
 
-🧱 Data Structures Used
+   🧱 Data Structures Used
 
-   Linked List – Manages inventory for dynamic product addition/removal.
-   Queue – Tracks customers in the order they arrive.
-   Stack – Stores low-stock alerts in LIFO order.
-   Array – Used internally within the shopping cart to store products and quantities.
+     Linked List – Manages inventory for dynamic product addition/removal.
+     Queue – Tracks customers in the order they arrive.
+     Stack – Stores low-stock alerts in LIFO order.
+     Array – Used internally within the shopping cart to store products and quantities.
 
 👤 Author
 
