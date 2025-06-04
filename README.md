@@ -2,16 +2,17 @@
 
 This project implements a comprehensive **Inventory and Customer Management System** in C++ using fundamental data structures such as **Linked Lists**, **Stacks**, and **Queues**. It is designed to manage a store’s product inventory, handle customer purchases, and generate daily sales reports.
 
+---
 
 ## 📋 Features
 
-   ### 🔐 Admin Authentication
+### 🔐 Admin Authentication
 - Secure login with default credentials:  
   **Username:** admin  
   **Password:** admin  
 - Admin can change credentials during runtime.
 
-   ### 📦 Inventory Management (Linked List)
+### 📦 Inventory Management (Linked List)
 - Add new products (name, price, stock).
 - Remove products by name.
 - View all available products in a formatted table.
@@ -35,7 +36,7 @@ This project implements a comprehensive **Inventory and Customer Management Syst
   - Total customers served.
   - Total sales revenue.
 
-
+---------
 ## 🧱 Data Structures Used
 
 - **Linked List** – For dynamic inventory management  
