@@ -1,54 +1,52 @@
-🛒 C++ Inventory & Customer Management System
+# 🛒 C++ Inventory & Customer Management System
 
- This project implements a comprehensive Inventory and Customer Management System in C++ using fundamental data structures 
- such as Linked Lists, Stacks, and Queues. It is designed for managing a store’s product inventory, handling customer 
- purchases, and generating daily sales reports.
+This project implements a comprehensive **Inventory and Customer Management System** in C++ using fundamental data structures such as **Linked Lists**, **Stacks**, and **Queues**. It is designed to manage a store’s product inventory, handle customer purchases, and generate daily sales reports.
 
-📋 Features
+---
 
-   🔐 Admin Authentication
+## 📋 Features
 
-     Secure login with default credentials:
-     Username: admin
-     Password: admin
-     Admin can change their credentials during runtime.
+### 🔐 Admin Authentication
+- Secure login with default credentials:  
+  **Username:** admin  
+  **Password:** admin  
+- Admin can change credentials during runtime.
 
-   📦 Inventory Management (Linked List)
+### 📦 Inventory Management (Linked List)
+- Add new products (name, price, stock).
+- Remove products by name.
+- View all available products in a formatted table.
+- Search for a specific product.
+- Automatic alert when stock falls below threshold (default < 5).
 
-     Add new products with name, price, and stock.
-     Remove products by name.
-     View all available products in a formatted table.
-     Search for a specific product.
-     Automatically alerts admin when stock falls below threshold (default <5).
+### 🧺 Customer Shopping (Queue + Cart)
+- Each customer is queued upon entry.
+- Customers can:
+  - Add items to shopping cart.
+  - View cart contents and total cost.
+  - Checkout (updates inventory and logs purchase).
+- Cart includes product name, quantity, and per-item pricing.
 
+### ⚠️ Low Stock Alerts (Stack)
+- Products with low stock are pushed onto a stack.
+- Admin can view and clear all current low-stock warnings.
 
-   🧺 Customer Shopping (Queue + Cart)
+### 📊 Reporting
+- View daily sales report including:
+  - Total customers served.
+  - Total sales revenue.
 
-     Each customer is queued upon entry.
-     Customers can :
-         Add items to their shopping cart.
-         View cart contents and total cost.
-         Checkout, which updates inventory and logs their total spent.
-     Cart functionality includes product name, quantity, and per-item pricing.
+---
 
-   ⚠️ Low Stock Alerts (Stack)
+## 🧱 Data Structures Used
 
-     Products with low stock levels are pushed onto a stack.
-     Admin can view and clear all current low-stock warnings.
+- **Linked List** – For dynamic inventory management  
+- **Queue** – To track customers in entry order  
+- **Stack** – For storing low-stock alerts (LIFO)  
+- **Array** – Inside shopping cart to store products and quantities
 
-   📊 Reporting
+---
 
-     View a Daily Sales Report including:
-     Total customers served.
-     Total sales revenue.
+## 👤 Author
 
-   🧱 Data Structures Used
-
-     Linked List – Manages inventory for dynamic product addition/removal.
-     Queue – Tracks customers in the order they arrive.
-     Stack – Stores low-stock alerts in LIFO order.
-     Array – Used internally within the shopping cart to store products and quantities.
-
-👤 Author
-
- Developed as a practice project for mastering C++ and fundamental data structures through real-world simulation.
+Developed as a practice project for mastering **C++** and core **data structures** through a real-world store simulation.
