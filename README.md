@@ -36,7 +36,7 @@ This project implements a comprehensive **Inventory and Customer Management Syst
   - Total customers served.
   - Total sales revenue.
 
----
+--
 
 ## 🧱 Data Structures Used
 
@@ -45,7 +45,7 @@ This project implements a comprehensive **Inventory and Customer Management Syst
 - **Stack** – For storing low-stock alerts (LIFO)  
 - **Array** – Inside shopping cart to store products and quantities
 
----
+--
 
 ## 👤 Author
 
