@@ -36,5 +36,4 @@ This project implements a comprehensive **Inventory and Customer Management Syst
   - Total sales revenue.
 <br><br><br>
 
-
 **Note:** This project was developed to practice C++ and data structures like Linked Lists, Queues, and Stacks through a store simulation.
