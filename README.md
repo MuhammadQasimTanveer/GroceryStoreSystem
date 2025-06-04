@@ -36,15 +36,4 @@ This project implements a comprehensive **Inventory and Customer Management Syst
   - Total customers served.
   - Total sales revenue.
 
----------
-## 🧱 Data Structures Used
-
-- **Linked List** – For dynamic inventory management  
-- **Queue** – To track customers in entry order  
-- **Stack** – For storing low-stock alerts (LIFO)  
-- **Array** – Inside shopping cart to store products and quantities
-
-
-## 👤 Author
-
-Developed as a practice project for mastering **C++** and core **data structures** through a real-world store simulation.
+**Note:** This project was developed to practice C++ and data structures like Linked Lists, Queues, and Stacks through a store simulation.
